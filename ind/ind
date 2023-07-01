@@ -1,0 +1,30 @@
+or create a new repository on the command line
+echo "# wlz" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/brianzhou139/wlz.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/brianzhou139/wlz.git
+git branch -M main
+git push -u origin main
+
+
+Update
+git add .
+git commit -m "first commit"
+git push -u origin main
+
+
+
+
+# problem 223
+# problem 
+
+# https://github.com/tailwindlabs/tailwindcss/discussions/5981
+
+https://github.com/tailwindlabs/tailwindcss/discussions/5981
+
