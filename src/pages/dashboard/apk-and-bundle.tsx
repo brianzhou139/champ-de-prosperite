@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import Layout from '@components/Containers/Layout';
 import { Button } from '@windmill/react-ui'
 import { useState,useEffect,useRef } from 'react';
@@ -11,7 +10,6 @@ import Link from 'next/link';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const inter = Inter({ subsets: ['latin'] })
 
 const linkToApk="https://wlz.netlify.app/share/app-release.apk";
 const linkToBundle="https://wlz.netlify.app/share/app-release.aab";
