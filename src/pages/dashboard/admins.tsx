@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import Layout from '@components/Containers/Layout';
 import { Button } from '@windmill/react-ui'
 import { useState,useEffect,useRef } from 'react';
@@ -16,9 +15,6 @@ import AdminDisplayer  from '@components/Dashboard/AdminDisplayer';
 import { useAuth } from '@context/auth';
 import { userOnlyHasReadRights } from '@utils/functions/utils_functions';
 import { UNAUTHORISED_WRITE_ACCESS_MESSAGE } from '@utils/constants/warning_constants';
-
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Admins() {
   const router = useRouter();
