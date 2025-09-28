@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@extractus/article-extractor": "^7.2.8",
-    "@mantine/rte": "^5.10.3",
+    "@extractus/article-extractor": "^8.0.20",
+    "@mantine/rte": "^3.4.3",
     "@next/font": "13.1.6",
     "@svgr/webpack": "^6.5.1",
     "@types/node": "18.13.0",
@@ -21,9 +21,9 @@
     "dotenv": "^16.0.3",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
-    "firebase": "^9.17.1",
-    "firebase-admin": "^11.5.0",
-    "next": "13.1.6",
+    "firebase": "^12.3.0",
+    "firebase-admin": "^13.5.0",
+    "next": "^15.5.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-spinners": "^0.13.8",
