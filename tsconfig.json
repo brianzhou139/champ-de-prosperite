@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "typeRoots": ["./types", "./node_modules/@types"],
+    // other options
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -25,6 +27,7 @@
       "@models/*": ["models/*"],
       "@icons": ["icons"],
       "@routes/*": ["routes/*"],
+      "@styles/*": ["src/styles/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
